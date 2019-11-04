@@ -9,7 +9,6 @@ class User extends Model {
                 email: Sequelize.STRING,
                 password: Sequelize.VIRTUAL,
                 password_hash: Sequelize.STRING,
-                permission_level: Sequelize.ENUM,
             },
             {
                 sequelize,
